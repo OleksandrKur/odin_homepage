@@ -1,0 +1,57 @@
+html > * {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+section,
+header,
+footer {
+  max-width: 1280px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+header,
+footer {
+  background-color: #56d0f5;
+}
+.icon {
+  width: auto;
+  height: 48px;
+}
+/* navlinks */
+.navlink_container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  list-style-type: none;
+}
+.navlink {
+  color: inherit;
+}
+/* about */
+.about-section {
+  background: linear-gradient(
+    160deg,
+    rgba(86, 208, 245, 1) 50%,
+    rgba(0, 0, 0, 0) 50%
+  );
+
+  display: flex;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+}
+.header_image-container {
+  background-image: url("images/jonny-gios-8NTDojpu_Js-unsplash-min_512x697.jpeg");
+  background-size: cover;
+  aspect-ratio: 3 / 4;
+  position: relative;
+}
+.header_text-container {
+  background-color: white;
+  box-shadow: 4px 4px 8px #80808044;
+}
